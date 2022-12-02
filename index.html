@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="logo">
+                <h1>HireMe</h1>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">CV</a></li>
+                    <li><a href="#">ABOUT ME</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="info">
+        <div class="border1"></div>
+        <div class="texts">
+ <p class="pp">Hi, am Alex Nyanten.</p>
+ <p>Full stack Developer.</p>
+<p>Languages: Html,Css,Javascript,Python.</p>
+ <button>Hire me</button>
+
+        </div>
+    </div>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main{
+    width: 100%;
+    height: 10vh;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.nav{
+    margin: 0px 0px;
+    width: 80%;
+    align-items: center;
+    position: sticky;
+    display: flex;
+}
+
+.logo{
+    flex: 20;
+    margin: 0.5rem;
+    color: rgb(71, 71, 129);
+    font-family: segoe script;
+    font-weight: 100;
+    
+}
+
+.logo h1{
+    font-weight: 900;
+    text-shadow: 1px 1px 1px blue;
+}
+
+.nav-links ul li{
+    display: inline-flex;
+    margin: 1rem;
+    font-family: segoe ui;
+}
+
+.nav-links ul li a{
+    color: rgb(71, 71, 129);
+}
+
+.nav-links ul li a:hover{
+    color: blue;
+    background: white;
+}
+
+.info{
+    display: inline-flex;
+    border: 1px solid black;
+    width: 220vh;
+    height: 90vh;
+    border: none;
+}
+
+.border1{
+    background-image: url('https://yt3.ggpht.com/lAhM5Ld1A7Q9hURo_RWNQABu7Bh5ssbDcRoMqc1uBNYQe1dX7KfDGynjTIQFTLJsfDilYXWJ5MMgwA=s640-c-fcrop64=1,00000000ffffffff-nd-v1');
+    width: 50%;
+    background-size: cover;
+}
+
+.texts{
+    margin: 9rem 5rem;
+}
+
+p{
+    font-weight: 100;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-family: calibri;
+}
+
+.texts button{
+    padding: 1rem 3rem;
+    background: rgb(71, 71, 129);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+}
+
+.texts button:hover{
+    background: blue;
+    transition: 0.4s;
+    padding: 1rem 5rem;
+}
+
+@media (max-width: 900px){
+
+
+    .main{
+        height: 10vh;
+    }
+
+
+    .logo{
+        display: none;
+    }
+
+    .nav-links{
+        margin: 0rem 0rem;
+    }
+
+    .nav-links ul li{
+        display: inline-flex;
+        font-size: 0.9rem;
+        margin: 0.8rem 0.5rem;
+    }
+
+    .border1{
+        width: 30vh;
+        height: 20vh;
+        margin: 1rem 0rem;
+        border-radius: 4rem;
+    }
+
+    .info p{
+        font-size: 0.9rem;
+        margin: 0rem 0em;
+    }
+
+    .info{
+        width: 55vh;
+        height: 10vh;
+    }
+
+    .info .texts{
+        margin: 0rem 0.5rem; 
+    }
+
+    .texts button{
+        padding: 1rem 2rem;
+    }
+
+
+
+}
+    </style>
+</body>
+</html>
